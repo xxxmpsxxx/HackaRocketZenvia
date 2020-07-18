@@ -18,7 +18,7 @@ jobs:
         HEROKU_API: ${{ secrets.HEROKU_API_KEY }}
         APP_NAME: ${{ 'classificados-api' }}
       run: |
-        cd ./HackaRocketZenvia
+        cd ./HackaRocketZenvia/HackaRocketZenvia.API
         docker login --username=_ --password=$HEROKU_API_KEY registry.heroku.com
         heroku container:push web -a $APP_NAME
         heroku container:release web -a $APP_NAME
