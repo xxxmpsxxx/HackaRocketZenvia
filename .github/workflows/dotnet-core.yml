@@ -1,0 +1,24 @@
+name: .NET Core
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Setup .NET Core
+      env:
+        HEROKU_API: ${{ secrets.HEROKU_API_KEY }}
+        APP_NAME: ${{ 'classificados-api' }}      
+      run: | 
+        cd ./
+        docker login --username=_ --password=$HEROKU_API_KEY registry.heroku.com
+        heroku container:push web -a $APP_NAME
+        heroku container:release web -a $APP_NAME
