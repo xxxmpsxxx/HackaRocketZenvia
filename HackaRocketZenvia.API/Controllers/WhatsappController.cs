@@ -10,22 +10,7 @@ namespace HackaRocketZenvia.API.Controllers
     [Route("[controller]")]
     [ApiController]
     public class WhatsappController : ControllerBase
-    {
-        //[HttpGet]
-        //public async Task<IActionResult> SendMessage()
-        //{
-        //    var x = new Clients.WhatsappClient("qwXNkAVQQ6WUAni_BrTOkN0BFg-zOkc3AjiZ");
-        //    await x.SendMessage(new Model.Message()
-        //    {
-        //        from = "few-jumper",
-        //        to = "5517991119839",
-        //        contents = new Model.Content[] { new Model.Content() { text = "Olá Marcus, tudo bem?", type = "text" } }
-        //    });
-
-        //    return Ok();
-        //}
-
-
+    {        
         //localhost/Whatsapp/WebHook
         [HttpPost("WebHook")]
         public async Task<IActionResult> Webhook([FromBody] Model.WebHookResponse message)
@@ -69,7 +54,7 @@ namespace HackaRocketZenvia.API.Controllers
                     }                                                            
                 }
 
-                return Ok("");
+                return Ok();
             }
 
             return NotFound();
@@ -86,10 +71,10 @@ namespace HackaRocketZenvia.API.Controllers
                     await x.SendMessage(message);
                 }
 
-                return Ok("");
+                return Ok();
             }
 
-            return NotFound();
+            return BadRequest();
         }
     }
 }

@@ -36,7 +36,13 @@ C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\o
 C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\obj\Debug\netcoreapp3.1\HackaRocketZenvia.API.dll
 C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\obj\Debug\netcoreapp3.1\HackaRocketZenvia.API.pdb
 C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\obj\Debug\netcoreapp3.1\HackaRocketZenvia.API.genruntimeconfig.cache
-C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\obj\Debug\netcoreapp3.1\HackaRocketZenvia.API.csproj.CoreCompileInputs.cache
-C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\obj\Debug\netcoreapp3.1\HackaRocketZenvia.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\obj\Debug\netcoreapp3.1\HackaRocketZenvia.API.csproj.CopyComplete
+C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\bin\Debug\netcoreapp3.1\DnsClient.dll
+C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\bin\Debug\netcoreapp3.1\SharpCompress.dll
+C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\obj\Debug\netcoreapp3.1\HackaRocketZenvia.API.csproj.CoreCompileInputs.cache
+C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\obj\Debug\netcoreapp3.1\HackaRocketZenvia.API.MvcApplicationPartsAssemblyInfo.cache
