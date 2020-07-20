@@ -44,5 +44,10 @@ C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\b
 C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
 C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
 C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\bin\Debug\netcoreapp3.1\SharpCompress.dll
+C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\obj\Debug\netcoreapp3.1\HackaRocketZenvia.API.csproj.CoreCompileInputs.cache
+C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\obj\Debug\netcoreapp3.1\HackaRocketZenvia.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Marcus\Source\Repos\xxxmpsxxx\HackaRocketZenvia\HackaRocketZenvia.API\obj\Debug\netcoreapp3.1\HackaRocketZenvia.API.MvcApplicationPartsAssemblyInfo.cache

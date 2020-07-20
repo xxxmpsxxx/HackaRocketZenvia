@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HackaRocketZenvia.API</name>
+    </assembly>
+    <members>
+        <member name="M:HackaRocketZenvia.API.Clients.BaseClient.EnsureSuccessStatusCode(System.Net.Http.HttpResponseMessage)">
+            <summary>
+            Garante que o código de retorno é menor que 400.   
+            </summary>
+            <param name="httpResponseMessage"></param>
+            <exception cref="T:HackaRocketZenvia.API.Clients.ClientResponseException"></exception>
+        </member>
+        <member name="M:HackaRocketZenvia.API.Clients.BaseClient.EnsureSuccessStatusCodeAsync(System.Net.Http.HttpResponseMessage)">
+            <summary>
+            Garante que o código de retorno é menor que 400.   
+            </summary>
+            <param name="httpResponseMessage"></param>
+            <exception cref="T:HackaRocketZenvia.API.Clients.ClientResponseException"></exception>
+        </member>
+    </members>
+</doc>

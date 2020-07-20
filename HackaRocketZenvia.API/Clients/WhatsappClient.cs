@@ -18,7 +18,7 @@ namespace HackaRocketZenvia.API.Clients
             this.token = token;
         }
 
-        public async Task<WebHookResponse> SendMessage(MessageRequest message)
+        public async Task<Model.Messages.MessageReturn> SendMessage(Model.Messages.MessageSend message)
         {
             var header = new Dictionary<string, object>()
             {
@@ -33,7 +33,7 @@ namespace HackaRocketZenvia.API.Clients
 
             var json = await response.Content.ReadAsStringAsync();
 
-            return JsonConvert.DeserializeObject<WebHookResponse>(json);
+            return JsonConvert.DeserializeObject<Model.Messages.MessageReturn>(json);
         }
     }
 }

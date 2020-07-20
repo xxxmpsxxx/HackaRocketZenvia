@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HackaRocketZenvia.API.Model
-{
-    #region Models WebHook
-    public class WebHookResponse
+namespace HackaRocketZenvia.API.Model.WebHook
+{   
+    public class MessageWebHook
     {
         public string id { get; set; }
         public DateTime timestamp { get; set; }
@@ -38,30 +37,7 @@ namespace HackaRocketZenvia.API.Model
     public class Content
     {
         public string type { get; set; }
-        public Payload payload { get; set; }
         public string text { get; set; }
     }
-
-    public class Payload
-    {
-        public Visitor visitor { get; set; }
-    }
-    #endregion    
-
-    #region Models SendMessage
-    public class MessageRequest
-    {
-        public string from { get; set; }
-        public string to { get; set; }
-        public ContentRequest[] contents { get; set; }
-
-    }
-
-    public class ContentRequest
-    {
-        public string type { get; set; }
-        public string payload { get; set; }
-        public string text { get; set; }
-    }
-    #endregion    
 }
+
